@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face{
+        font-family: "Dancing Script";
+        src: url('fonts/DancingScript-SemiBold.ttf');
+    }
+    @font-face{
+        font-family: "Caveat";
+        src: url('fonts/Caveat-SemiBold.ttf');
+    }
+    @font-face{
+        font-family: "Satisfy";
+        src: url('fonts/Satisfy-Regular.ttf');
+    }
+    body{
+        background-image: linear-gradient(to right,  silver, black);
+    }
+    h2{
+        display: inline-block;
+        margin: 0px auto;
+        margin-right: 40px;
+        margin-left: 30px;
+        border: 2px solid silver;
+        padding: 25px;
+        margin-top: 20px;
+        font-family:"Dancing Script";
+        border-radius: 50px;
+        margin-right: 19px;
+        margin-left: 18px;
+        font-style: italic;
+    }
+    h1{
+        display: inline-block;
+        margin: 0px auto;
+        margin-right: 20px;
+        margin-left: 10px;
+        border: 2px solid silver;
+        padding: 20px;
+        margin-top: 50px;
+        font-family: "Caveat";
+        font-style: italic;
+        border-radius: 50px;
+    }
+    h4{
+        font-family: "Satisfy";
+        text-align: center;
+        margin-top: 150px;
+        font-size: 42px;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    .one-box{
+        margin: 0px auto;
+        text-align: center;
+        
+    }
+    .two-box{
+        margin: 0px auto;
+        text-align: center;
+    }
+</style>
+<body>
+    <div>
+        <h4>Sab Bhaiyon ko advance me Bakra Eid Mubarak bahut bahut mubarak </h4>
+    </div>
+    <div class="one-box">
+        <h1>Days</h1>
+        <h1>Hours</h1>
+        <h1>Minutes</h1>
+        <h1>Seconds</h1>
+    </div>
+
+    <div  class="two-box">
+        <h2 id="day"></h2>
+        <h2 id="hour"></h2>
+        <h2 id="min"></h2>
+        <h2 id="sec"></h2>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
